@@ -1,0 +1,137 @@
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"); */
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700");
+
+.HomeTitleText
+  {
+    font-size: 5em;
+    z-index: 1;
+    color: #fff;
+    max-width: 82%;
+    line-height: 1.4;
+    position: relative;
+    font-family: "Noto Sans",Helvetica,Arial,sans-serif;
+    text-align: center;
+    margin: 8rem auto 0 auto;
+
+}
+
+.HomeSubTitleText{
+  z-index: 1;
+  color: #fff;
+  max-width: 80%;
+  line-height: 1.4;
+  position: relative;
+  font-family: "Noto Sans",Helvetica,Arial,sans-serif;
+  text-align: center;
+  margin: 8rem auto 0 auto;
+  font-size: 3em;
+}
+
+.paddingtop{
+padding-top: 20%;
+}
+
+.carousel-caption.caption1 {
+  bottom: 37% !important;
+  left: 0% !important;
+  right: 0% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.carousel-caption.caption2 {
+    left: 0% !important;
+  right: 0% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  bottom: 28% !important;
+}
+
+.carousel-caption.caption3 {
+  left: 0% !important;
+right: 0% !important;
+display: flex !important;
+align-items: center !important;
+justify-content: center !important;
+bottom: -20% !important;
+}
+
+.savebtn {
+  font-family: "Roboto-Medium";
+  font-size: 14px !important;
+  color: #ffffff !important;
+  text-align: center;
+  line-height: 14px !important;
+}
+
+.btn_size {
+  width: 9.75em;
+  height: 2.5em;
+}
+
+ 
+  @media (min-width: 576px) and (max-width: 870px) {
+    .carousel-caption.caption1 {
+      bottom: 60% !important;
+  }
+    .HomeTitleText{
+    font-size: 2.5em !important;
+   
+  }
+  
+  
+  .HomeSubTitleText {
+    font-size: 2.2em !important;
+  }
+  
+  .carousel-caption.caption3 {
+    bottom: -74% !important;
+}
+}
+
+
+
+@media (min-width: 441px) and (max-width: 575px) {
+  
+  .carousel-caption.caption1 {
+    bottom: 54% !important;
+  }
+  .HomeTitleText{
+    font-size: 2.5em;
+    line-height: 24px
+  }
+
+  .carousel-caption.caption2 {
+    bottom: 38% !important;
+  }
+  .HomeSubTitleText {
+    font-size: 1.8em;
+    line-height: 21px;
+}
+.carousel-caption.caption3{
+  bottom: -45% !important;
+}
+}
+
+@media (min-width: 320px) and (max-width: 440px) {
+  .carousel-caption.caption1 {
+    bottom: 54% !important;
+  }
+  .HomeTitleText{
+    font-size: 2em;
+    line-height: 24px
+  }
+
+  .carousel-caption.caption2 {
+    bottom: 34% !important;
+  }
+  .HomeSubTitleText {
+    font-size: 1.5em;
+    line-height: 21px;
+}
+.carousel-caption.caption3{
+  bottom: -45% !important;
+}
+}
